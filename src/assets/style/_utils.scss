@@ -1,0 +1,48 @@
+.text-center {
+	text-align: center;
+}
+
+.space-bottom {
+	margin-bottom: var(--space);
+}
+
+.highlighted {
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+.flex__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex__column {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="button"]{
+  outline:none;
+}
+
+// Scrollbar customization
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb); 
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
