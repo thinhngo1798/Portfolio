@@ -6,10 +6,11 @@ import {
   Route,
   BrowserRouter as Router,
   Redirect,
+  HashRouter
 } from "react-router-dom";
 function App() {
   return (
-    <React.Fragment>
+    <HashRouter basename="/">
        <Router>
         <Switch>
           <Route path="/contact" children={() => <Contact />} />
@@ -17,7 +18,7 @@ function App() {
           <Redirect to="/" />
         </Switch>
       </Router>
-    </React.Fragment>
+    </HashRouter>
     
   );
 }
