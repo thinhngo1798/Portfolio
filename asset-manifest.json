@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/contact/static/css/main.98658f5a.chunk.css",
+    "main.js": "/contact/static/js/main.5dcbcdb2.chunk.js",
+    "main.js.map": "/contact/static/js/main.5dcbcdb2.chunk.js.map",
+    "runtime-main.js": "/contact/static/js/runtime-main.b8d3c0b0.js",
+    "runtime-main.js.map": "/contact/static/js/runtime-main.b8d3c0b0.js.map",
+    "static/js/2.5e21f2bf.chunk.js": "/contact/static/js/2.5e21f2bf.chunk.js",
+    "static/js/2.5e21f2bf.chunk.js.map": "/contact/static/js/2.5e21f2bf.chunk.js.map",
+    "static/js/3.ac0cd9af.chunk.js": "/contact/static/js/3.ac0cd9af.chunk.js",
+    "static/js/3.ac0cd9af.chunk.js.map": "/contact/static/js/3.ac0cd9af.chunk.js.map",
+    "index.html": "/contact/index.html",
+    "static/css/main.98658f5a.chunk.css.map": "/contact/static/css/main.98658f5a.chunk.css.map",
+    "static/js/2.5e21f2bf.chunk.js.LICENSE.txt": "/contact/static/js/2.5e21f2bf.chunk.js.LICENSE.txt",
+    "static/media/background.dbcb0f62.jpeg": "/contact/static/media/background.dbcb0f62.jpeg",
+    "static/media/profile.f628336f.png": "/contact/static/media/profile.f628336f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8d3c0b0.js",
+    "static/js/2.5e21f2bf.chunk.js",
+    "static/css/main.98658f5a.chunk.css",
+    "static/js/main.5dcbcdb2.chunk.js"
+  ]
+}
