@@ -2,12 +2,11 @@ import React, {useRef, useEffect} from 'react';
 import Typed from 'typed.js';
 
 import './PortfolioStyle.scss';
-import Background from '../assets/img/background1.jpg';
-import PortfolioPicture from '../assets/img/profile1.jpg';
 
-import Header from '../components/Header';
+import PortfolioPicture from '../assets/img/profile1.jpg';
 import Experience from '../components/Experience';
 import Skill from "../components/Skill";
+import Layout from "../components/Layout/Layout";
 
 import Skills from '../data/skills.json';
 import Experiences from '../data/experiences';
@@ -49,13 +48,7 @@ function Portfolio() {
 
   return (
     <React.Fragment>
-      <div className="main-wrapper">
-      <div className="background" style={{ backgroundImage: `url(${Background})`}}>
-        </div>
-        <Header />
-      <div className="header-margin"></div>
-     <div>
-        <div id="layout">
+      <Layout>
         <section id="main">
       <div>
         <h1>
@@ -141,9 +134,7 @@ function Portfolio() {
         }
       </div>
     </section>
-        </div>
-        </div>
-    </div>
+    </Layout>
     </React.Fragment>
     
   );
