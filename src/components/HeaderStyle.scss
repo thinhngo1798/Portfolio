@@ -16,12 +16,17 @@
   padding-right: 3.5rem;
 }
 .nav__link {
-  margin-left: 20px;
+  margin-left: 5px;
   text-decoration: none;
   color: var(--body-color);
   font-size: 1.2rem;
 
   @include lg {
+    margin-left: 20px;
+    font-size: 1.4rem;
+  }
+  @include md {
+    margin-left: 20px;
     font-size: 1.4rem;
   }
   &:hover {

@@ -1,32 +1,32 @@
 {
     "frontend": [
         {
-            "id": "RazorPage",
-            "title": "Razor Page",
+            "id": "ReactJS",
+            "title": "React",
             "level": 5
         },
         {
-            "id": "vuejs",
-            "title": "Vue.js",
+            "id": "VueJS",
+            "title": "Vue",
             "level": 4
         },
         {
-            "id": "webpack",
-            "title": "Webpack",
-            "level": 3
-        },
-        {
-            "id": "css",
-            "title": "CSS",
+            "id": "bootstrap",
+            "title": "Bootstrap",
             "level": 4
         },
         {
-            "id": "html",
-            "title": "HTML",
+            "id": "tailWind",
+            "title": "Tailwind CSS",
             "level": 5
         },
         {
-            "id": "jquery",
+            "id": "SCSS",
+            "title": "SCSS",
+            "level": 5
+        },
+        {
+            "id": "Jquery",
             "title": "JQuery",
             "level": 4
         }
@@ -36,28 +36,23 @@
             "id": "reactnative",
             "title": "React Native",
             "level": 4
-        },
-        {
-            "id": "flutter",
-            "title": "Flutter",
-            "level": 4
         }
     ],
     "backend": [
         {
             "id": "nodejs",
-            "title": "Node.js",
-            "level": 4
+            "title": "Node JS",
+            "level": 5
         },
         {
-            "id": "azure",
-            "title": "Azure",
-            "level": 3
+            "id": "dotnet",
+            "title": ".Net Core",
+            "level": 5
         },
         {
-            "id": "aws",
-            "title": "Amazon Web Services",
-            "level": 2
+            "id": "cms",
+            "title": "Headless CMS",
+            "level": 5
         },
         {
             "id": "sqlServer",
@@ -66,15 +61,35 @@
         },
         {
             "id": "sql",
-            "title": "SQL",
-            "level": 3
+            "title": "mySQL",
+            "level": 4
         }
     ],
     "devops": [
         {
-            "id": "cicd",
-            "title": "CI/CD",
+            "id": "aws",
+            "title": "Amazon Web Services",
+            "level": 5
+        },
+        {
+            "id": "git",
+            "title": "Git",
             "level": 4
+        },
+        {
+            "id": "bitbucket",
+            "title": "Bitbucket",
+            "level": 4
+        },
+        {
+            "id": "octopusDeploy",
+            "title": "Octopus Deploy",
+            "level": 4
+        },
+        {
+            "id": "kubernetes",
+            "title": "Kubernetes",
+            "level": 3
         }
     ],
     "language": [
@@ -86,11 +101,6 @@
         {
             "id": "en",
             "title": "English",
-            "level": 4
-        },
-        {
-            "id": "presentation",
-            "title": "Presentation Skills",
             "level": 4
         }
     ]

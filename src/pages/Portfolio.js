@@ -2,8 +2,8 @@ import React, {useRef, useEffect} from 'react';
 import Typed from 'typed.js';
 
 import './PortfolioStyle.scss';
-import Background from '../assets/img/background.jpeg';
-import PortfolioPicture from '..//assets/img/profile.png';
+import Background from '../assets/img/background1.jpg';
+import PortfolioPicture from '../assets/img/profile1.jpg';
 
 import Header from '../components/Header';
 import Experience from '../components/Experience';
@@ -60,10 +60,10 @@ function Portfolio() {
       <div>
         <h1>
           Hi! <br />
-          My name is <span className="highlighted">Steven Ngo</span> and I am a undergraduate full stack developer.
+          My name is <span className="highlighted">Steven Ngo</span> and I am a <span className="highlighted">Full Stack Web Developer</span> at myDNA Life and an <span className="highlighted">Undergraduate Software Engineer</span> from Swinburne University.
         </h1>
         <h2>
-          I love working with <span className="rotating-text highlighted"></span>
+          I love working with <span className="rotating-text highlighted1"></span>
         </h2>
       </div>
       <div className="main__button-container">
@@ -73,16 +73,16 @@ function Portfolio() {
     <section id="intro" ref={myRef} >
       <div className="intro__row">
         <div className="intro__image-container">
-          <div className="image" style={{ backgroundImage: `url(${PortfolioPicture})`}}></div>
+          <div className="image" style={{ backgroundImage: `url(${PortfolioPicture})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}></div>
         </div>
         <div className="intro__description flex__column">
           <h3>
             I am currently in my final year of <span className="highlighted">Software Engineering </span> at Swinburne University, Australia.
           </h3>
-          <h4>
-            While studying, I am also working at <a href="https://www.mydna.life/" className="highlighted">myDNA Digital Company</a>, providing services/advices to improve people's health through genotyping technology and algorithm technology. <br />
-            And I ❤️ connecting with other people and make new friend 😁!
-          </h4>
+          <h3>
+            While studying, I am working part time at <a href="https://www.mydna.life/" className="highlighted">myDNA Life Company</a>, providing services and advice to improve people's health through genotyping technology and algorithm technology. <br />
+            And I ❤️ connecting with other people and make new friends 😁!
+          </h3>
         </div>
       </div>
 

@@ -11,10 +11,10 @@ return (
         </Link>
           </div>
       <nav className="nav">
-        <Link className="nav__link" to="/">About</Link>
+        <Link className="nav__link" to={process.env.PUBLIC_URL +"/"}>About</Link>
         {/* <Link className="nav__link" to="/blog">Blog</Link>
         <Link className="nav__link" to="/my-work">My work</Link> */}
-        <Link className="nav__link" to="/contact">Contact me</Link>
+        <Link className="nav__link" to={process.env.PUBLIC_URL +"/contact"}>Contact me</Link>
       </nav>
     </header> 
 )

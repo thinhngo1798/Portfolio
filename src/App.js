@@ -5,19 +5,17 @@ import {
   Switch,
   Route,
   BrowserRouter as Router,
-  Redirect,
+  Redirect
 } from "react-router-dom";
 function App() {
   return (
-    <React.Fragment>
        <Router>
         <Switch>
-          <Route path="/contact" children={() => <Contact />} />
-          <Route exact path="/" children={() => <Portfolio />} />
-          <Redirect to="/" />
+          <Route path={process.env.PUBLIC_URL + "/contact"} children={() => <Contact />} />
+          <Route path={process.env.PUBLIC_URL + '/'}children={() => <Portfolio />} />
+          <Redirect to={process.env.PUBLIC_URL + "/"} />
         </Switch>
       </Router>
-    </React.Fragment>
     
   );
 }

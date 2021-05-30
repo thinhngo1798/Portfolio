@@ -2,7 +2,7 @@ const experiences = [
     {
         "city": "Melbourne",
         "country": "Australia",
-        "company": "myDNA Digital",
+        "company": "myDNA Life",
         "from": "March 2021",
         "until": "Now",
         "tasks": [
@@ -22,7 +22,7 @@ const experiences = [
         "skills": [
             "C# .NET Core",
             "React Native",
-            "SQL Server Database",
+            "AWS Services",
             "API"
         ]
     },
@@ -30,8 +30,8 @@ const experiences = [
         "city": "Melbourne",
         "country": "Australia",
         "company": "Connectible Solution",
-        "from": "10 / 2020",
-        "until": "02 / 2021",
+        "from": "October 2020",
+        "until": "February 2021",
         "tasks": [
             {
                 "text": "Collaborating with other team members under tech manager's supervision to plan, design and construct database structures and prototype website in Figma.",

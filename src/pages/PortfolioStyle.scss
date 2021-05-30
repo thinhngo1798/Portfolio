@@ -79,7 +79,7 @@ section {
       transition: all 0.3s ease;
     
       &:hover {
-        color: var(--highlight-color);
+        color: var(--highlight-blue-color);
       }
       &::after {
         content: '';
@@ -97,6 +97,10 @@ section {
 .highlighted {
   color: var(--highlight-color);
 }
+.highlighted1 {
+  color: var(--highlight-blue-color);
+}
+
 #intro {
   display: flex;
   flex-direction: column;
@@ -137,7 +141,12 @@ section {
   .image {
     object-fit: cover;
     height: 350px;
-    width: 400px;
+    width: 350px;
+    // @include md {
+    //   object-fit: cover;
+    // height: 350px;
+    // width: 400px;
+    // }
   }
 }
 #skills {
