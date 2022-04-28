@@ -53,7 +53,7 @@ function Portfolio() {
       <div>
         <h1>
           Hi! <br />
-          My name is <span className="highlighted">Steven Ngo</span> and I am a <span className="highlighted">Full Stack Web Developer</span> at myDNA Life and an <span className="highlighted">Undergraduate Software Engineer</span> from Swinburne University.
+          My name is <span className="highlighted">Steven Ngo</span> and I am a <span className="highlighted">Full Stack Web Developer</span> at myDNA Life and a <span className="highlighted"> Software Engineer</span> from Swinburne University.
         </h1>
         <h2>
           I love working with <span className="rotating-text highlighted1"></span>
@@ -70,11 +70,11 @@ function Portfolio() {
         </div>
         <div className="intro__description flex__column">
           <h3>
-            I am currently in my final year of <span className="highlighted">Software Engineering </span> at Swinburne University, Australia.
+            I am currently working as a <span className="highlighted"> Software Developer </span> at myDNA, Australia.
           </h3>
           <h3>
-            While studying, I am working part time at <a href="https://www.mydna.life/" className="highlighted">myDNA Life Company</a>, providing services and advice to improve people's health through genotyping technology and algorithm technology. <br />
-            And I ❤️ connecting with other people and make new friends 😁!
+            While studying, I was working part time at <a href="https://www.mydna.life/" className="highlighted">myDNA Life Company</a>, providing services and advice to improve people's health through genetic technology and algorithm technology. And it earned me my first full-time job as a developer right after graduating. <br />
+            I ❤️ connecting with other people and make new friends 😁!
           </h3>
         </div>
       </div>
